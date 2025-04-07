@@ -3,7 +3,7 @@ public class Carta {
     private String palo; // Palo (Picas, Corazones, Tréboles, Diamantes)
 
 
-    public Carta(int numero, String palo) {
+    public Carta error (int numero, String palo) {
         this.numero = numero;
         this.palo = palo;
     }
